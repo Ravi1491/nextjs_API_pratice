@@ -5,11 +5,11 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        <Image src="/logo.jpg" width={128} height={77}/>
+        <Image src="/nike-3-logo-svg-vector.svg" width={150} height={100}/>
       </div>
-      <Link href="/"><a>Home </a></Link>
-      <Link href="/about"><a>About </a></Link>
-      <Link href="/users"><a>users</a></Link>
+      <Link href="/"><a><h3>Home</h3></a></Link>
+      <Link href="/about"><a><h3>About</h3> </a></Link>
+      <Link href="/users"><a><h3>Users</h3></a></Link>
     </nav>
   );
 }
